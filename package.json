@@ -1,0 +1,48 @@
+{
+    "name": "@recursyve/strapi-provider-upload-do",
+    "version": "1.0.1",
+    "description": "Digital Ocean provider for strapi upload",
+    "publishConfig": {
+        "access": "public"
+    },
+    "keywords": [
+        "upload",
+        "digital ocean",
+        "space",
+        "strapi"
+    ],
+    "bugs": {
+        "url": "https://github.com/recursyve/strapi-provider-upload-do/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/recursyve/strapi-provider-upload-do.git"
+    },
+    "license": "SEE LICENSE IN LICENSE",
+    "author": {
+        "name": "Recursyve Solutions",
+        "email": "info@recursyve.io",
+        "url": "https://recursyve.io"
+    },
+    "maintainers": [
+        {
+            "name": "Recursyve Solutions",
+            "email": "info@recursyve.io",
+            "url": "https://recursyve.io"
+        }
+    ],
+    "main": "./lib",
+    "directories": {
+        "lib": "./lib"
+    },
+    "scripts": {
+        "test": "echo \"no tests yet\""
+    },
+    "dependencies": {
+        "aws-sdk": "2.1208.0"
+    },
+    "engines": {
+        "node": ">=14.19.1 <=18.x.x",
+        "npm": ">=6.0.0"
+    }
+}
